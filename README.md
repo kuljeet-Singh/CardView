@@ -29,7 +29,7 @@ The attributes of the card view are:<br>
 ``` * cardBackgroundColor :``` Defines the background color of the card. The default attribute “background” doesn’t have any effect on card.
 
 <br> 
-``` * cardElevation : ```Defines the elevation. Elevation here refers to how high a card is in relation to the frame layout. The default attribute “elevation” doesn’t have any effect on card.<br>
+``` * cardElevation : ``` Defines the elevation. Elevation here refers to how high a card is in relation to the frame layout. The default attribute “elevation” doesn’t have any effect on card.<br>
 
 Elevation further have an attribute which is:<br>
  •  cardMaxElevation : Defines the max elevation. It is a Boolean expression. Hence, it must be set true.<br>
@@ -43,7 +43,7 @@ Elevation further have an attribute which is:<br>
 •	contentPaddingTop – Inner padding between the child views of the CardView and the top edge of the card.<br>
 • cardUseCompatPadding : Adds space around the card view to prevent card’s shadow being clipped by the card’s parent view. <br>
 
-```cardPreventCornerOverlap :``` Enables/disables content padding to prevent children views to be clipped.
+``` * cardPreventCornerOverlap : ``` Enables/disables content padding to prevent children views to be clipped.
  
 
 
