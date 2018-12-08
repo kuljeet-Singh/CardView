@@ -45,9 +45,10 @@ Elevation further have an attribute which is:<br>
 ``` * cardPreventCornerOverlap : ``` Enables/disables content padding to prevent children views to be clipped.
  
 ## Code
-package com.example.n01202455.cardview;<br>
+```
+package com.example.n01202455.cardview;
 
-import android.content.Intent; <br>      
+import android.content.Intent;      
 import android.support.v7.app.AppCompatActivity; <br>
 import android.os.Bundle; <br>
 import android.support.v7.widget.CardView; <br>
@@ -111,6 +112,25 @@ public class description extends AppCompatActivity implements View.OnClickListen
         }<br>
     }<br>
 }<br>
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
