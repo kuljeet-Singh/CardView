@@ -25,21 +25,26 @@ When I was researching on internet about the usage of Cardview maximum examples 
 
 ### Attributes
 The attributes of the card view are:<br>
-* cardBackgroundColor : Defines the background color of the card. The default attribute “background” doesn’t have any effect on card.<br> 
-* cardElevation : Defines the elevation. Elevation here refers to how high a card is in relation to the frame layout. The default attribute “elevation” doesn’t have any effect on card.<br>
+```
+cardBackgroundColor : Defines the background color of the card. The default attribute “background” doesn’t have any effect on card.
+```
+<br> 
+```
+cardElevation : Defines the elevation. Elevation here refers to how high a card is in relation to the frame layout. The default attribute “elevation” doesn’t have any effect on card.<br>
+```
 Elevation further have an attribute which is:<br>
-    1) cardMaxElevation : Defines the max elevation. It is a Boolean expression. Hence, it must be set true.<br>
+ •  cardMaxElevation : Defines the max elevation. It is a Boolean expression. Hence, it must be set true.<br>
 
-* cardCornerRadius : Defines the corner radius of the card. More the magnitude more circular will be the corners of the card.<br>
-It also further attributes like:
+```cardCornerRadius : Defines the corner radius of the card. More the magnitude more circular will be the corners of the card.<br>```
+It also further attributes like:<br>
 •	contentPadding: Inner padding between the child views of the CardView and all edges of the card.<br>
 •	contentPaddingBottom – Inner padding between the child views of the CardView and the bottom edge of the card.<br>
 •	contentPaddingLeft – Inner padding between the child views of the CardView and the left edge of the card.<br>
 •	contentPaddingRight – Inner padding between the child views of the CardView and the right edge of the card.<br>
 •	contentPaddingTop – Inner padding between the child views of the CardView and the top edge of the card.<br>
 
-* cardPreventCornerOverlap : Enables/disables content padding to prevent children views to be clipped.
-* cardUseCompatPadding : Adds space around the card view to prevent card’s shadow being clipped by the card’s parent view. Personally, I loved this attribute. 
+```cardPreventCornerOverlap : Enables/disables content padding to prevent children views to be clipped.```
+```cardUseCompatPadding : Adds space around the card view to prevent card’s shadow being clipped by the card’s parent view. Personally, I loved this attribute. ```
 
 
 ```
