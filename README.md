@@ -66,26 +66,26 @@ public class description extends AppCompatActivity implements View.OnClickListen
         super.onCreate(savedInstanceState); 
         setContentView(R.layout.activity_description); 
 
-        roadCardView = findViewById(R.id.roadways);							// Assigning values to Variables<br>
+        roadCardView = findViewById(R.id.roadways);		// Assigning values to Variables
         railCardView = findViewById(R.id.railways); 
         airCardView = findViewById(R.id.airways); 
         waterCardView = findViewById(R.id.waterways); >
 
-        roadCardView.setOnClickListener(this);			//  Setting OnClickListener's
+        roadCardView.setOnClickListener(this);		//  Setting OnClickListener's
         railCardView.setOnClickListener(this); 
         airCardView.setOnClickListener(this); 
         waterCardView.setOnClickListener(this); 
     }<br>
 
     @Override<br>
-    public void onClick(View view) {				// Definig the function<br>
+    public void onClick(View view) {		// Definig the function<br>
 
         Intent intent;
-        switch (view.getId())		// Using switch statement to check which card is pressed. 
+        switch (view.getId())	// Using switch statement to check which card is pressed. 
         {
             case R.id.roadways: 
             {<br>
-                startActivity(intent);		// Intent to new activity according to the card pressed.
+                startActivity(intent);	// Intent to new activity according to the card pressed.
                 break; 
             }
 
