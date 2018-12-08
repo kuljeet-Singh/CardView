@@ -26,7 +26,7 @@ When I was researching on internet about the usage of Cardview maximum examples 
 ### Attributes
 The attributes of the card view are:<br>
 
-``` *cardBackgroundColor :``` Defines the background color of the card. The default attribute “background” doesn’t have any effect on card.<br>
+``` * cardBackgroundColor :``` Defines the background color of the card. The default attribute “background” doesn’t have any effect on card.<br>
 
 ``` * cardElevation : ``` Defines the elevation. Elevation here refers to how high a card is in relation to the frame layout. The default attribute “elevation” doesn’t have any effect on card.<br>
 
@@ -44,45 +44,74 @@ Elevation further have an attribute which is:<br>
 
 ``` * cardPreventCornerOverlap : ``` Enables/disables content padding to prevent children views to be clipped.
  
+## Code
+package com.example.n01202455.cardview;<br>
 
+import android.content.Intent; <br>      
+import android.support.v7.app.AppCompatActivity; <br>
+import android.os.Bundle; <br>
+import android.support.v7.widget.CardView; <br>
+import android.view.View; <br>
 
-```
-Give the example
-```
+import static com.example.n01202455.cardview.R.layout.activity_description; <br>
 
-And repeat
+public class description extends AppCompatActivity implements View.OnClickListener {  
+// Implementing OnClickListener here only<br>
 
-```
-until finished
-```
+    private CardView roadCardView, waterCardView, airCardView, railCardView; // Declaring variables <br>
 
-End with an example of getting some data out of the system or using it for a little demo
+    @Override <br>
+    protected void onCreate(Bundle savedInstanceState) {<br>
+        super.onCreate(savedInstanceState); <br>
+        setContentView(R.layout.activity_description); <br>
 
-## Running the tests
+        roadCardView = findViewById(R.id.roadways);							// Assigning values to Variables<br>
+        railCardView = findViewById(R.id.railways); <br>
+        airCardView = findViewById(R.id.airways); <br>
+        waterCardView = findViewById(R.id.waterways); <br>
 
-Explain how to run the automated tests for this system
+        roadCardView.setOnClickListener(this);			//  Setting OnClickListener's<br>
+        railCardView.setOnClickListener(this); <br>
+        airCardView.setOnClickListener(this); <br>
+        waterCardView.setOnClickListener(this); <br>
+    }<br>
 
-### Break down into end to end tests
+    @Override<br>
+    public void onClick(View view) {				// Definig the function<br>
 
-Explain what these tests test and why
+        Intent intent; <br>
+        switch (view.getId())		// Using switch statement to check which card is pressed. <br>
+        {<br>
+            case R.id.roadways: <br>
+            {<br>
+                startActivity(intent);		// Intent to new activity according to the card pressed. <br>
+                break; <br>
+            }<br>
 
-```
-Give an example
-```
+            case R.id.waterways: <br>
+            {<br>
+                intent = new Intent(this, bhej_item.class); <br>
+                startActivity(intent); <br>
+                break; <br>
+            }<br>
 
-### And coding style tests
+            case R.id.airways: <br>
+            {<br>
+                intent = new Intent(this, bhej_item.class); <br>
+                startActivity(intent); <br>
+                break; <br>
+            }<br>
 
-Explain what these tests test and why
+            case R.id.railways: <br>
+            {<br>
+                intent = new Intent(this, bhej_item.class); <br>
+                startActivity(intent); <br>
+                break; <br>
+            }<br>
+        }<br>
+    }<br>
+}<br>
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
