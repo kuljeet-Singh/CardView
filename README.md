@@ -131,6 +131,9 @@ https://www.youtube.com/watch?v=4wCCnTDns2U <br>
 https://www.binpress.com/android-recyclerview-cardview-guide/ <br>
 
 3)	Android Developer <br>
-https://developer.android.com/reference/android/support/v7/widget/CardView
+https://developer.android.com/reference/android/support/v7/widget/CardView  <br>
+4) Github <br>
+https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
+
 
 
