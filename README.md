@@ -49,69 +49,69 @@ Elevation further have an attribute which is:<br>
 package com.example.n01202455.cardview;
 
 import android.content.Intent;      
-import android.support.v7.app.AppCompatActivity; <br>
-import android.os.Bundle; <br>
-import android.support.v7.widget.CardView; <br>
-import android.view.View; <br>
+import android.support.v7.app.AppCompatActivity; 
+import android.os.Bundle; 
+import android.support.v7.widget.CardView; 
+import android.view.View; 
 
-import static com.example.n01202455.cardview.R.layout.activity_description; <br>
+import static com.example.n01202455.cardview.R.layout.activity_description; 
 
 public class description extends AppCompatActivity implements View.OnClickListener {  
-// Implementing OnClickListener here only<br>
+// Implementing OnClickListener here only
 
-    private CardView roadCardView, waterCardView, airCardView, railCardView; // Declaring variables <br>
+    private CardView roadCardView, waterCardView, airCardView, railCardView; // Declaring variables 
 
-    @Override <br>
-    protected void onCreate(Bundle savedInstanceState) {<br>
-        super.onCreate(savedInstanceState); <br>
-        setContentView(R.layout.activity_description); <br>
+    @Override 
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState); 
+        setContentView(R.layout.activity_description); 
 
         roadCardView = findViewById(R.id.roadways);							// Assigning values to Variables<br>
-        railCardView = findViewById(R.id.railways); <br>
-        airCardView = findViewById(R.id.airways); <br>
-        waterCardView = findViewById(R.id.waterways); <br>
+        railCardView = findViewById(R.id.railways); 
+        airCardView = findViewById(R.id.airways); 
+        waterCardView = findViewById(R.id.waterways); >
 
-        roadCardView.setOnClickListener(this);			//  Setting OnClickListener's<br>
-        railCardView.setOnClickListener(this); <br>
-        airCardView.setOnClickListener(this); <br>
-        waterCardView.setOnClickListener(this); <br>
+        roadCardView.setOnClickListener(this);			//  Setting OnClickListener's
+        railCardView.setOnClickListener(this); 
+        airCardView.setOnClickListener(this); 
+        waterCardView.setOnClickListener(this); 
     }<br>
 
     @Override<br>
     public void onClick(View view) {				// Definig the function<br>
 
-        Intent intent; <br>
-        switch (view.getId())		// Using switch statement to check which card is pressed. <br>
-        {<br>
-            case R.id.roadways: <br>
+        Intent intent;
+        switch (view.getId())		// Using switch statement to check which card is pressed. 
+        {
+            case R.id.roadways: 
             {<br>
-                startActivity(intent);		// Intent to new activity according to the card pressed. <br>
-                break; <br>
-            }<br>
+                startActivity(intent);		// Intent to new activity according to the card pressed.
+                break; 
+            }
 
-            case R.id.waterways: <br>
-            {<br>
-                intent = new Intent(this, bhej_item.class); <br>
-                startActivity(intent); <br>
-                break; <br>
-            }<br>
+            case R.id.waterways: 
+            {
+                intent = new Intent(this, bhej_item.class); 
+                startActivity(intent); 
+                break; 
+            }
 
-            case R.id.airways: <br>
-            {<br>
-                intent = new Intent(this, bhej_item.class); <br>
-                startActivity(intent); <br>
-                break; <br>
-            }<br>
+            case R.id.airways: 
+            {
+                intent = new Intent(this, bhej_item.class); 
+                startActivity(intent); 
+                break; 
+            }
 
-            case R.id.railways: <br>
-            {<br>
-                intent = new Intent(this, bhej_item.class); <br>
-                startActivity(intent); <br>
-                break; <br>
-            }<br>
-        }<br>
-    }<br>
-}<br>
+            case R.id.railways: 
+            {
+                intent = new Intent(this, bhej_item.class); 
+                startActivity(intent); 
+                break; 
+            }
+        }
+    }
+}
 
 ```
 
