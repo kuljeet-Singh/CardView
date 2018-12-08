@@ -7,7 +7,7 @@ A card is a sheet of material that serves as an entry point to more detailed inf
 <br>It generally represents a single row item in GridView or ListView. Many famous applications like google music also uses this frame layout. When card is clicked it intents into a new detailed activity. For example when an album tile is clicked in google play music app, a new activity that is music player opens. Hence, CardView can also be used for various other applications to.<br>
 <br>
 Generally when we want display an image or an icon, also want to write something below it and in all want it function as a button then CardView is the best solution to the situation.<br>
-CardView’s appearance as well as performance improves if used with RecyclerView[https://developer.android.com/guide/topics/ui/layout/recyclerview], which is also another useful tool in android development. I can’t explain it here because it will be a complete blog in itself.
+CardView’s appearance as well as performance improves if used with [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview), which is also another useful tool in android development. I can’t explain it here because it will be a complete blog in itself.
 
 ### Prerequisites
 
