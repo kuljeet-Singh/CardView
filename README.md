@@ -26,9 +26,8 @@ When I was researching on internet about the usage of Cardview maximum examples 
 ### Attributes
 The attributes of the card view are:<br>
 
-``` * cardBackgroundColor :``` Defines the background color of the card. The default attribute “background” doesn’t have any effect on card.
+``` *cardBackgroundColor :``` Defines the background color of the card. The default attribute “background” doesn’t have any effect on card.<br>
 
-<br> 
 ``` * cardElevation : ``` Defines the elevation. Elevation here refers to how high a card is in relation to the frame layout. The default attribute “elevation” doesn’t have any effect on card.<br>
 
 Elevation further have an attribute which is:<br>
