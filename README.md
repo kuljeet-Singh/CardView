@@ -119,7 +119,7 @@ public class description extends AppCompatActivity implements View.OnClickListen
 ```
 ![capture](https://user-images.githubusercontent.com/43182173/49682375-2b5c6200-fa81-11e8-931e-6077579ad870.PNG)
 
-These images are just Random in order to give an idea they are not generated from the above code.
+These images are just Random in order to give an idea they are not generated from the above code. However exact code or files can downloaded from my repository [CardView](https://github.com/kuljeet-Singh/CardView/blob/master/Cardview.zip)
 
 ## References
 
