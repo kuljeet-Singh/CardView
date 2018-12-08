@@ -27,8 +27,8 @@ When I was researching on internet about the usage of Cardview maximum examples 
 The attributes of the card view are:<br>
 •	cardBackgroundColor : Defines the background color of the card. The default attribute “background” doesn’t have any effect on card.<br> 
 •	cardElevation : Defines the elevation. Elevation here refers to how high a card is in relation to the frame layout. The default attribute “elevation” doesn’t have any effect on card.<br>
-Elevation further have an attribute which is:
-<t>	1) cardMaxElevation : Defines the max elevation. It is a Boolean expression. Hence, it must be set true.<br>
+Elevation further have an attribute which is:<br>
+    1) cardMaxElevation : Defines the max elevation. It is a Boolean expression. Hence, it must be set true.<br>
 
 •	cardCornerRadius : Defines the corner radius of the card. More the magnitude more circular will be the corners of the card.
 It also further attributes like:
