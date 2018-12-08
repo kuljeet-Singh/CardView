@@ -2,8 +2,9 @@
 
 ## Introduction
 
-A card is a sheet of material that serves as an entry point to more detailed information.<br> I is a FrameLayout with a rounded corner background and shadow.<br> Cards may contain a photo, text, and a link about a single subject. They may display content containing elements of varying size, such as photos with captions of variable length. 
-![maxresdefault](https://user-images.githubusercontent.com/43182173/49682048-c7cf3600-fa7a-11e8-8f16-4187373ecd08.jpg)
+A card is a sheet of material that serves as an entry point to more detailed information.<br> It is a FrameLayout with a rounded corner background and shadow.<br> Cards may contain a photo, text, and a link about a single subject. They may display content containing elements of varying size, such as photos with captions of variable length. 
+![maxresdefault](https://user-images.githubusercontent.com/43182173/49682048-c7cf3600-fa7a-11e8-8f16-4187373ecd08.jpg)<br>
+<br>It generally represents a single row item in GridView or ListView. Many famous applications like google music also uses this frame layout. When card is clicked it intents into a new detailed activity. For example when an album tile is clicked in google play music app, a new activity that is music player opens. Hence, CardView can also be used for various other applications to.
 
 ### Prerequisites
 
