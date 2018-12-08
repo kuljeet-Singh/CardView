@@ -24,6 +24,8 @@ Cardview  in itself is a frame layout therefore can be used on its own. But with
 When I was researching on internet about the usage of Cardview maximum examples which I found were using Linear layout as its first child container view. Personally my recommendation is also same. However relative and constraint layouts can also be used. In my code (which I have uploaded on repository) I have only used Linear Layout.
 
 ### Attributes
+![captur1e](https://user-images.githubusercontent.com/43182173/49682351-b1c47400-fa80-11e8-8d80-cd5347b64b9c.PNG)
+
 The attributes of the card view are:<br>
 
 ``` * cardBackgroundColor :``` Defines the background color of the card. The default attribute “background” doesn’t have any effect on card.<br>
