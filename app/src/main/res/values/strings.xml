@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cardview</string>
+    <string name="road">Roadways</string>
+    <string name="air">Airways</string>
+    <string name="water">Waterways</string>
+    <string name="rail">Railways</string>
+
+</resources>
